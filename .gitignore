@@ -2,3 +2,9 @@
 .idea
 .venv
 __pycache__
+.practice
+._*
+.DS_Store
+.ipynb_checkpoints
+*/.ipynb_checkpoints
+.vscode
