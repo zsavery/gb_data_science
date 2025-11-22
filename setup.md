@@ -87,6 +87,17 @@ source .venv/Scripts/activate
 
 > You’ll know it's activated when you see `(.venv)` at the beginning of the terminal line.
 
+### 5.5 Activation Permision
+
+- **Important Considerations**:
+
+Execution Policy: If you encounter an _error_ stating that scripts cannot be loaded or run, it is likely due to PowerShell's execution policy. To allow script execution, you may need to adjust the policy. You can do this by running PowerShell as an administrator and executing:
+
+```bash
+
+    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
 ---
 
 ### 6. Select Python 3.13 Interpreter in VS Code
